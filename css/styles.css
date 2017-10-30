@@ -1,48 +1,13 @@
 html, body{
     margin:0px; 
     padding:0px; 
-    background: #FAFAFA;
-}
-
-.title{
-    width: 100%;
-    color:#FAFAFA;
-    background: linear-gradient(#12B6D4, #4b89c7, #12B6D4);
-    font-weight: normal;
-    margin: 0px;
-    border: none; 
-    padding: 0.5em 0px 0.5em 0px;
-    text-align: center;
+    background: #ffffff;
 }
 
 .subtitle{
-    font-family: sans-serif;
-    margin: 2em 0px 0px 0em;
+    text-decoration: underline;
+    margin: 2em 0 2em 0em;
     text-align: center
-}
-
-table{
-    width: 100%;
-    margin-top: 0;
-    margin-left: 0;
-    border-spacing: 0;
-    
-}
-
-tr{
-    color: #faf9fa;
-    border: 1px solid #777277;
-    border-bottom: 3px solid #777277;
-}
-
-.navBar{
-    width: 20%;
-    height: 2em;
-    column-span: "10";
-    color: black;
-    background: linear-gradient(white, #dcdce4, white);
-    text-align: center;
-    border: 1px solid #dedee1;
 }
 
 #introText{
@@ -55,24 +20,14 @@ tr{
 }
 
 footer{
-    background: linear-gradient(#dedee1, #dcdce4);
-    height: 100px;
-    margin-top: 8em;
-    border-top: 8px solid #898994;
+    height: 70px;
+    margin-top: 1em;
+    border-top: 0.2em solid black;
     padding: 0.5em 0em 0em 1em;
-}
-
-.homeLink{
-    text-decoration: none;
 }
 
 .subTopicContentBody{
     margin: 0em 1em 0em 1em;
-}
-
-.subTopicTitle{
-    text-decoration: underline;
-    Y
 }
 
 .subHeadingStyle{
@@ -87,3 +42,38 @@ footer{
 .prevNextLink{
     display: inline;
     word-spacing: 5em;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color:white;
+
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu a:hover{
+    background-color:rgba(216, 207, 207, 0.753);
+}
+
+li{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+iframe{
+    display: block;
+    margin: 2em auto;
+}
+
+#github_logo{
+    padding-left:3em;
+}
+#github_logo img{
+    opacity:0.5;
+}
+
+#github_logo img:hover{
+    opacity:1;
+}
+
+#navbar-main{
+    margin-left:25%;
+}
