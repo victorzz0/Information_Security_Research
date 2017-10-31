@@ -15,18 +15,21 @@ darker bluish colour: 029BB8>
     </head>
     <body>
         <header role="banner">
-            <img src="Pictures/NewHomeBanner.jpg" width="100%">
+                <img class="w-100 h-100" src="Pictures/NewHomeBanner.jpg">
         </header>
-        <nav class="navbar navbar-expand navbar-dark bg-dark">   
-            <div class="collapse navbar-collapse">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">   
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mx-auto" id="navbar-main">
-                    <li class="nav-item">
+                    <li class="nav-item mr-md-4 mr-sm-2">
                         <a class="nav-link active" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-md-4 mx-sm-2">
                         <a class="nav-link" href="#">History</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown ml-md-4 mr-md-3 mx-sm-2">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Main topics     </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -41,13 +44,13 @@ darker bluish colour: 029BB8>
                             <a class="dropdown-item" href="virtualCurrencyPage.html">Virtual Currency</a>
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item  mx-md-4 mx-sm-2">
                         <a class="nav-link" href="#">Future Directions</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item  mx-md-4 mx-sm-2">
                         <a class="nav-link" href="#end" >Contact us</a>
                     </li>
-                    <li class="nav-item" id="github_logo">
+                    <li class="d-none d-md-block nav-item  ml-md-4" id="github_logo">
                         <a target="_blank" href="https://github.com/zz666666/Information_Security_Research"><img src="Pictures/GitHub-Mark-Light-32px.png"></a>
                     </li>
                 </ul>
@@ -61,11 +64,11 @@ darker bluish colour: 029BB8>
             <p class="subTopicText">bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.</p>
             <h3 class="subHeadingStyle">SubHeading 3</h3>
             <p class="subTopicText">bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.<br><br>Here is a video that describes virtual currency.</p>
-            <iframe width="400" height="300"  src="" align="middle"></iframe>
+            <iframe width="90%" src="" align="middle"></iframe>
             <h3 class="subHeadingStyle">SubHeading 4</h3>
             <p class="subTopicText">bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.bunch of random text.</p>
-            <a href="computerSecurity.html" class="btn btn-outline-info" role="button">Computer Security</a>
-            <a href="future.html" class="btn btn-outline-info float-right" role="button">Future</a>
+            <a href="computerSecurity.html" class="btn btn-outline-secondary" role="button">← Computer Security</a>
+            <a href="future.html" class="btn btn-outline-secondary float-right" role="button">Future Directions →</a>
         </div>
         <footer class="bg-dark">
             <p style="color:white">© Team 24 ENGS101P 2017/18, Department of Computer Science, UCL</p>
