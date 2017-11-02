@@ -16,7 +16,7 @@ html, body{
     margin: 1em 5em 0em 5em;
     text-align: justify;
     padding: 1em;
-    border-top: 3px solid #e6e6ee; 
+    border: 1px solid #e6e6ee; 
 }
 
 footer{
