@@ -108,3 +108,11 @@ iframe{
     padding:10px 0 0 0;
 }
 
+.subTopicIcons:hover{
+    opacity: 0.5
+}
+
+.iconText{
+    text-align: center;
+    font-size: 12px;
+}
