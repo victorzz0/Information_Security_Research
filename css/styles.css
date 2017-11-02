@@ -4,10 +4,13 @@ html, body{
     background: #ffffff;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    text-align: left;
+}
+
 .subtitle{
-    text-decoration: underline;
-    margin: 2em 0 2em 0em;
-    text-align: center
+    margin: 1em 0 1em 0em;
+    text-align: left;
 }
 
 #introText{
@@ -33,9 +36,9 @@ footer p{
 .subTopicContentBody{
     margin: 0em 1em 0em 1em;
 }
+
 .subTopicContentBody a p{
     margin-bottom: 0;
-
 }
 
 .subHeadingStyle{
@@ -43,8 +46,7 @@ footer p{
 }
 
 .subTopicText{
-    font-family: serif;
-    text-align: justify;
+    font-family: "helvetica";
 }
 
 .prevNextLink{
@@ -114,5 +116,5 @@ iframe{
 
 .iconText{
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
