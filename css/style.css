@@ -1,0 +1,211 @@
+html, body{
+    margin:0px; 
+    padding:0px; 
+    background: #ffffff;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    text-align: justify;
+}
+
+.subtitle{
+    margin: 2em 0 2em 0em;
+}
+
+/*navigation bar*/
+
+nav{
+    -webkit-box-shadow: 0px 4px 35px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 35px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 35px -2px rgba(0,0,0,0.75);
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color:white;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu a:hover{
+    background-color:rgba(216, 207, 207, 0.753);
+}
+
+.nav-link{
+    padding-left:5px!important;
+    padding-right: 5px!important;
+}
+
+button.navbar-toggler{
+    padding: 0 0 0 0;
+}
+
+#Website-logo{
+    margin-top: 2.5px;
+}
+
+#github-logo img{
+    padding-top:3px;
+    opacity:0.5;
+}
+
+#github-logo img:hover{
+    opacity:1;
+}
+
+#navbar-main{
+    margin-left:25%;
+}
+
+/*body*/
+
+.contentBody{
+    font-size: 20px;
+    padding: 1em;
+    border: 1px solid #e6e6ee; 
+    width: 900px;
+    margin-bottom: 24px;
+}
+
+iframe{
+    display: block;
+    margin-bottom: 1em;
+}
+
+.row .col{
+    padding:0 0;
+}
+
+.subTopicIcons{
+    box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.75);
+    border-radius: 50%; margin: 1em 0 1em 0;
+    height:180px;
+    width:180px;
+}
+.subTopicIcons:hover{
+    opacity: 0.5
+}
+
+.iconText{
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn{
+    margin:0 1.8em 0 1.8em;
+}
+
+.btn p{
+    text-align: center;
+}
+
+/*footer*/
+
+footer{
+    height: 5em;
+    margin-top: 1em;
+    border-top: 0.2em solid black;
+    padding: 0em 0em 0em 0em;
+}
+footer p{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/*media queries for rescaling on different devices*/
+
+@media screen and (max-width:576px){
+    #youtubeVideo{
+        margin-bottom:1em;
+        width:100%;
+        padding-top: 57.25%;
+        position: relative;
+    }
+    #youtubeVideo > iframe{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        height: 100%;
+    }
+    .btn{
+        width:8em;
+        white-space: normal;
+        margin:0 1.5em 0 1.5em;
+    }
+    .btn p{
+        margin:0 0;
+    }
+
+    .contentBody{
+        font-size: 20px;
+        padding: 10px;
+        border: 1px solid #e6e6ee; 
+        margin:0px 10px 1em 10px;
+        width: 93%;
+    }
+
+    .nav-brand img{
+        margin: 8px 0px 8px 0px;
+    }
+
+    .navbar-toggler{
+        margin:8px 0px 8px 0px;
+    }
+
+    nav{
+        padding-top:0px!important;
+        padding-bottom: 0px!important;
+    }
+    img{
+        height:120px;
+        width:100%;
+    }
+    .nav-item{
+        border-top:thin solid grey!important;
+    }
+    #navbar-main .nav-link{
+        color:white;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    iframe{
+        width:500px;
+        height:300px;
+    }
+
+    .contentBody{
+        font-size: 20px;
+        padding: 1em;
+        border: 1px solid #e6e6ee; 
+        width: 550px;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    iframe{
+        width: 680px;
+        height:350px;
+    }
+    .contentBody{
+        font-size: 20px;
+        padding: 1em;
+        border: 1px solid #e6e6ee; 
+        width: 720px;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .mx-lg-5{
+        margin-left: 36px!important;
+        margin-right: 36px!important;
+    }
+    .mr-lg-5{
+        margin-right: 36px!important;
+    }
+    #github-logo{
+        margin-left: 36px!important;
+    }
+}
