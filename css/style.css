@@ -96,6 +96,14 @@ iframe{
     text-align: center;
 }
 
+#right-btn{
+    margin:0 2em 1em 0;
+}
+
+#left-btn{
+    margin:0 0 1em 2em;
+}
+
 /*footer*/
 
 footer{
@@ -103,6 +111,7 @@ footer{
     margin-top: 1em;
     border-top: 0.2em solid black;
     padding: 0em 0em 0em 0em;
+    clear:both;
 }
 footer p{
     margin-bottom: 0;
