@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<! colours to use:
+whitish colour: FAFAFA
+greyish colour: 9B9B9B
+light bluish colour: 12B6D4
+darker bluish colour: 029BB8>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type = "text/css">
+        <link rel="stylesheet" href="css/style.css" type = "text/css">
+        <link rel="shortcut icon" href="Pictures/webLogo2.ico" />
+        <title>Computer Security</title>
+    </head>
+    <body>
+        <header role="banner">
+            <img id="banner" class="w-100" src="Pictures/Banner.jpg">
+        </header>
+        
+        <nav class="sticky-top navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="nav-brand" href="index.html">
+                <img class="d-xs-block d-sm-none" style="width:35px; height:35px;" src="Pictures/website-logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto" id="navbar-main">
+                    <li class="nav-item d-none d-sm-block">
+                        <a href="index.html"><img id="Website-logo" src="Pictures/website-logo.png" style="width:35px;height:35px"></a>
+                    </li>
+                    <li class="nav-item mr-lg-5 mr-md-4 mr-sm-2">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-sm-2">
+                        <a class="nav-link" href="#">History</a>
+                    </li>
+                    <li class="nav-item dropdown mx-lg-5 ml-md-4 mr-md-2 mx-sm-2">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Main topics</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Cryptography</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Malware</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="cybercrimePage.html">Cybercrime</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Computer Security</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="virtualCurrencyPage.html">Virtual Currency</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-sm-2">
+                        <a class="nav-link" href="#">Future Directions</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-sm-2">
+                        <a class="nav-link" href="#end" >Contact us</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block ml-lg-5 ml-md-4" id="github-logo">
+                        <a target="_blank" href="https://github.com/zz666666/Information_Security_Research"><img src="Pictures/GitHub-Mark-Light-32px.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2 class="subtitle" style="text-align:center">Computer Security</h2>
+        <div class="mx-auto contentBody">
+            <div class="mx-auto" >
+                <h3 class="subHeadingStyle">Introduction</h3>
+                <p class="subTopicText">Computer security is essentially the protection of hardware, software and stored data in a computer system from possible damages, theft and misuse.</p>
+                
+                <h3 class="subHeadingStyle">Key people and their publications</h3>
+                <p class="subTopicText">Here are some of the lead researchers in the domain of computer security at UCL.
+                    They have been actively involved in the field and have made great contributions through their intensive and rigorous researches. You can find out more about them and their researches in their personal pages.
+                </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <center><a href="http://sec.cs.ucl.ac.uk/users/smurdoch/" target="_blank"><img src="https://pbs.twimg.com/profile_images/641996073112735744/IzfDDqlw_400x400.jpg" class="subTopicIcons" alt="circle"></a></center>
+                            <p class="iconText">Dr. Steven Murdoch</p>
+                        </div>
+                        <div class="col-md-4">
+                            <center><a href="http://www0.cs.ucl.ac.uk/staff/G.Danezis/" target="_blank"><img src="https://pbs.twimg.com/profile_images/1464619730/me-gdane-sml_400x400.jpg" class="subTopicIcons" alt="circle"></a></center>
+                            <p class="iconText">Dr. George Danezis</p>
+                        </div>
+                        <div class="col-md-4">
+                            <center><a href="http://www0.cs.ucl.ac.uk/staff/G.Stringhini/" target="_blank"><img src="https://pbs.twimg.com/profile_images/858732102862483456/rzI0kX-i_400x400.jpg" class="subTopicIcons" alt="circle"></a></center>
+                            <p class="iconText">Dr. Gianluca Stringhini</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="subTopicText">And here are some publications by them in collaboration with researchers from other universities:</p>
+                <ul>
+                    <li><a href="https://iris.ucl.ac.uk/iris/publication/1420391/1" target="_blank">A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components</a></li>
+                    <li><a href="https://iris.ucl.ac.uk/iris/publication/1194323/1" target="_blank">Fast Protection-Domain Crossing in the CHERI Capability-System Architecture</a></li>
+                    <li><a href="https://iris.ucl.ac.uk/iris/publication/1183677/1" target="_blank">Permissions Snapshots: Assessing Users’ Adaptation to the Android Runtime Permission Model</a></li>
+                    <li><a href="https://iris.ucl.ac.uk/iris/publication/1021439/1" target="_blank">Layered Graph Logic as an Assertion Language for Access Control Policy Models</a></li>
+                </ul>
+                <h3 class="subHeadingStyle">Research</h3>
+                <p class="subTopicText">The researchers at UCL study many aspects of computer security. Listed below are some of the researches done recently:</p>
+                <p class="subTopicText">One of them is about the security of cryptographic hardware system. A cryptographic hardware system is essentially a system that utilizes many individual hardware components to perform encryption to confidential data and information. Sometimes, hackers can compromise the whole system by only attacking certain vulnerable components, thus resulting in a theft or misuse of data encrypted. This is really really bad: imagine your card numbers being stolen and used to purchase expensive things without your permission! In a research paper published recently, Dr. Danezis was part of the research team that pioneered a way to build a more secure system where the system will only be compromised when ALL of the individual components are compromised!(1) You can find out more about the research <a href="https://iris.ucl.ac.uk/iris/publication/1420391/1">here</a>!</li>
+                
+                <p class="subTopicText">Another one of them is about building more secure hardware systems based on the “principle of least privilege”. Below is a short Youtube video explaining what the “principle of least privilege” is:</li>
+                <div class="mx-auto" id="youtubeVideo">   
+                    <iframe class="mx-auto" width="800px" height="450px" src="https://www.youtube.com/embed/N_mQnsib1mU" frameborder="1" allowfullscreen></iframe>
+                </div>
+                <p>In a research paper published last year, Dr. Murdoch was part of a research team that found a way to allow both the hardware and software of a computer system to make better use of the “principle of least privilege”! This is achieved through improving the current technique of breaking software into smaller isolated pieces and improving the access control of the underlying hardware.(2) You can find out more about the research <a href="https://iris.ucl.ac.uk/iris/publication/1194323/1">here</a>!</p>
+                
+                <p>I am sure many of you have heard of and used the Android system in your phones. In that case, you must have encountered this scene of permission authentication in your phone:</p>
+                <img width="100%" src="https://img.purch.com/w/755/aHR0cDovL21lZGlhLmJlc3RvZm1pY3JvLmNvbS9HL1EvNTQ2MjE4L29yaWdpbmFsL3Blcm1pc3Npb25zXzEuanBn">
+                <img width="100%" src="http://androidsigma.com/wp-content/uploads/2016/09/app-access-to-location-on-android-marshmallow.jpg">
+                <p>Dr. Stringhini and Professor Sasse were part of a group that analyzed the new permission model in the Android system. They found that in general the new model is well received by users and users are persistent to allow access to resources that are directly related to their main functionality (e.g. Camera for Instagram). In addition, the study also showed that users’ behavior is consistent regarding the resources they allow to social media applications to access.(3) You can find out more about the research <a href="https://iris.ucl.ac.uk/iris/publication/1183677/1">here</a>!</p>
+                
+                <h3 class="subHeadingStyle">Impact</h3>
+                <p class="subTopicText">The researches done have immense potential to make the electronic devices that we use daily more secure. By enhancing encryption and access control, they make our personal data less vulnerable to theft by unlawful attackers and malicious software. Now you can have much more confidence saving things like your credit card information in applications such as Google Play or Amazon and not worrying about them being stolen. </p>
+            </div>
+
+            <div class="mx-auto">
+                <h3 class="subHeadingStyle">References</h3>
+                <p>1. Mavroudis V, Cerulli A, Svenda P, Cvrcek D, Klinec D, Danezis G. A Touch of Evil. Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security - CCS '17. 2017;.</p>
+                <p>2. Watson R, Norton R, Woodruff J, Moore S, Neumann P, Anderson J et al. Fast Protection-Domain Crossing in the CHERI Capability-System Architecture. IEEE Micro. 2016;36(5):38-49.</p>
+                <p>3. Andriotis P, Sasse M, Stringhini G. Permissions snapshots: Assessing users' adaptation to the Android runtime permission model. 2016 IEEE International Workshop on Information Forensics and Security (WIFS). 2016;.</p>
+            </div>
+        </div>
+
+        <!--The buttons diaplyed are large when the screen is large-->
+        <a id="left-btn" href="cybercrimePage.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline-block" role="button">← Cybercrime</a>
+        <a id="right-btn" href="virtualCurrencyPage.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline-block float-right" role="button">Virtual Currency →</a>
+
+        <!--The buttons diaplyed are small when the screen is small-->
+        <a id="left-btn" href="cybercrimePage.html"  class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none">
+            <div class="row mx-auto" style="width:100px">
+                <div class="col col-2 d-flex align-items-center justify-content-center" style="text-align:right">
+                    <p>←</p>
+                </div>
+                <div class="col col-md-auto d-flex align-items-center justify-content-center">
+                    <p>Cybercrime</p>
+                </div>
+            </div>
+        </a>
+        <a id="right-btn" href="virtualCurrencyPage.html" class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none float-right" role="button">
+            <div class="row mx-auto" style="width:100px">
+                <div class="col col-md-auto d-flex align-items-center justify-content-center">
+                    <p>Virtual Currency</p>
+                </div>
+                <div class="col col-3 d-flex align-items-center justify-content-center" style="text-align:left">
+                    <p>→</p>
+                </div>
+            </div>
+        </a>
+
+        <footer class="bg-dark d-flex align-items-center justify-content-center">
+            <p style="color:white">© Team 24 ENGS101P 2017/18, Department of Computer Science, UCL</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>
