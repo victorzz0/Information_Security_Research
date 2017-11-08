@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<! colours to use:
+whitish colour: FAFAFA
+greyish colour: 9B9B9B
+light bluish colour: 12B6D4
+darker bluish colour: 029BB8>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type = "text/css">
+        <link rel="stylesheet" href="css/style.css" type = "text/css">
+        <link rel="shortcut icon" href="Pictures/webLogo2.ico" />
+        <title>Cryptography</title>
+    </head>
+    <body>
+        <header role="banner">
+            <img class="w-100" src="Pictures/Banner.jpg">
+        </header>
+        
+        <nav class="sticky-top navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="nav-brand" href="index.html">
+                <img class="d-xs-block d-sm-none" style="width:35px; height:35px;" src="Pictures/website-logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto" id="navbar-main">
+                    <li class="nav-item d-none d-sm-block">
+                        <a href="index.html"><img id="Website-logo" src="Pictures/website-logo.png" style="width:35px;height:35px"></a>
+                    </li>
+                    <li class="nav-item mr-lg-5 mr-md-4 mr-sm-2">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-sm-2">
+                        <a class="nav-link" href="#">History</a>
+                    </li>
+                    <li class="nav-item dropdown mx-lg-5 ml-md-4 mr-md-2 mx-sm-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Main topics</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Cryptography</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Malware</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Cybercrime</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Computer Security</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="virtualCurrencyPage.html">Virtual Currency</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-sm-2">
+                        <a class="nav-link" href="#">Future Directions</a>
+                    </li>
+                    <li class="nav-item mx-lg-5 mx-md-4 mx-sm-2">
+                        <a class="nav-link" href="#end" >Contact us</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block ml-lg-5 ml-md-4" id="github-logo">
+                        <a target="_blank" href="https://github.com/zz666666/Information_Security_Research"><img src="Pictures/GitHub-Mark-Light-32px.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2 class="subtitle" style="text-align:center">Cryptography</h2>
+        <div class="mx-auto contentBody">
+            <div class="mx-auto" >
+                <h3 class="subHeadingStyle">Introduction</h3>
+                <p class="subTopicText">It is the fact that the perceived need of computer users and communication privacy has brought cryptography out of the shadow world of espionage and secrecy with which it has been linked traditionally. At the meantime, the advent of the personal computers (PC) and the micros make the cryptographic option a concern of everyday users.</p>
+                <p>Before the modern era, cryptography mainly focused on the confidentiality converting comprehensible messages into an incomprehensible one and back again, rendering it unreadable without secrecy. There are two basic methods of encryption: transposition cipher and substitution cipher. It is kind of art of writing and solving codes (the Concise Oxford Dictionary, 2006). Katz J. and Lindell Y. (2007) claimed that this definition mainly focuses on the problem of secret communication as it specified codes used to ensure the privacy of messages.</p> 
+                <p>In the late 20th century, cryptography was enabled as a rigorous subject with the advancement of theory and technology. This subject is well defined as “the scientific study of techniques for securing digital information, transactions and distributed computations.” (Introduction to Modern Cryptography, 2007). More generally, it is one approach to privacy in the computer age (Beckett B., 1998). The modern cryptography can be divided into several areas including symmetric-key cryptography, public-key cryptography, cryptanalysis, cryptosystems and so on.<br><br>Here is a video on the history of cryptography.</p> 
+                <div class="mx-auto" id="youtubeVideo">   
+                <iframe class="mx-auto" width="800px" height="450px" src="https://www.youtube.com/watch?v=H9Cu36Qj3dQ" frameborder="1" allowfullscreen></iframe>
+            </div>
+                
+                
+                <h3 class="subHeadingStyle">Key people and their publications</h3>
+                <p class="subTopicText">Here are links of the homepage of some lead researchers in the domain of cryptography at UCL as well as their publications in related fields:</p>
+                <p>• Professor Jens Groth (Director, Principal investigator) </p>
+                <p>• Dr Nicholas T. Courtis</p>
+                <p>• Dr Steven Murdoch </p>
+                <p>• Reader Sarah Meiklejohn</p>
+                <p>Here are links to publications written by researchers from UCL:</p>
+                <p>• Gentry C, Groth J, Ishai Y, Peikert C, Sahai A, Smith A.Using fully homomorphic hybrid encryption to minimize non-interactive zero-knowledge proofs. Journal of Cryptology. 2015 Oct 1;28(4):820-43.</p>
+                <p>• Groth J, Kohlweiss M. One-out-of-many proofs: Or how to leak a secret and spend a coin. In EUROCRYPT (2) 2015 Apr 14 (Vol. 9057, pp. 253-280). Springer Berlin Heidelberg.</p>
+                <p>• Groth J. Re-randomizable and re-playable adaptive chosen ciphertext attack secure cryptosystems. In Theory of Cryptography Conference 2004 Feb 19 (pp. 152-170). Springer, Berlin, Heidelberg.</p>
+                <p>• Danezis G. Better anonymous communications (Doctoral dissertation, University of Cambridge).</p>
+                
+                <h3 class="subHeadingStyle">Research</h3>
+                <p class="subTopicText">Presently, the cryptography group led by Professor Jens Groth has been participated in various programmes and projects. Professor Jens Groth is the first to propose the first general non-interactive zero knowledge proofs that are efficient enough to be used in practice. Hs has been awarded a Starting Grant by the European Research Council to fund his work on the cryptographic building block known as "zero-knowledge proofs". Generally, zero-knowledge proof is a method by which one party can prove to another party that a given statement is true without giving any additional information. Here is a video showing what exactly zero-knowledge is.</p>
+                <div class="mx-auto" id="https://www.youtube.com/watch?v=H9Cu36Qj3dQ">   
+                <iframe class="mx-auto" width="800px" height="450px" src="https://www.youtube.com/watch?v=U6FPXHycHck" frameborder="1" allowfullscreen></iframe>
+            </div>
+                <p>Dr Murdoch is probably the most popular researcher at Information Security group. Recently, he was interviewed about the security of the internet things, by the register on biometric payment cards, by BBC news about the introduction of an app store register in China and so on. Such a high popularity benefited from his great research. His best known and most significant work could be chip and PIN is broken. Also known as EMV, Chip and PIN is the now-standard way to secure payment card transactions in all over the world. He is intending to study new tokenisation schemes such as the one used in Apple Pay, and contactless payment schemes. Besides, he also wants to figure out how to better measure and quantify security.</p>
+                <p>Reader Sarah who is the research lead in cryptography group is focusing on security and cryptography currently. She and her collaborators used a symmetric cryptograph instead of asymmetric cryptography by noticing the people who issues you the anonymous credential could be the same as the person who verifies it in many cases. She is now working on two main projects. One concerns the tools for the Investigation of Transactions in Underground Markets and another one is Transparency and Privacy in Information Economies.</p>
+            </div>
+
+            <div class="mx-auto">
+                <h3 class="subHeadingStyle">Impact</h3>
+                <p class="subTopicText"></p>
+                <p>Cryptography is one of the major research directions in the Department of Computer Science at University College London (UCL), specifically focusing on cryptanalysis and financial cryptography. The members in the group have been cooperated actively with collaborators from other institutions such as Princeton, IBM Thomas J. Watson Centre, Google, University of Michigan and so on. </p><p> UCL provides a world-class research environment, hardware facilities and considerably high teaching level, especially in Department of Computer Science. These scholars at UCL and their results have advanced the theoretical knowledge in the domain of cryptography as well as practical products.  Particularly, the zero-knowledge protocols theory firstly proposed by Professor Jens Groth at UCL has been proved its practical value in the real world and it can be said this theory will soon be our human benefit. </p>
+            </div>
+            <div class="mx-auto">
+                <h3 class="subHeadingStyle">Reference List</h3>
+                <p class="subTopicText"></p>
+                <p>1. Chaum D, Evertse JH, Van De Graaf J. An improved protocol for demonstrating possession of discrete logarithms and some generalizations. InWorkshop on the Theory and Application of of Cryptographic Techniques 1987 Apr 13 (pp. 127-141). Springer, Berlin, Heidelberg.</p>
+                <p>2. Craig Gentry, Jens Groth, Yuval Ishai, Chris Peikert, Amit Sahai and Adam Smith: Using Fully Homomorphic Hybrid Encryption to Minimize Non-interative Zero-Knowledge Proofs. Journal of Cryptology 28(4), pages 820-843, 2015.</p>
+                <p>3. Jens Groth and Markulf Kohlweiss: One-out-of-Many Proofs: Or How to Leak a Secret and Spend a Coin. Advances in Cryptology - EUROCRYPT 2015, LNCS 9057, pages 253-280.</p>
+                <p>4. Jens Groth’s homepage. http://www0.cs.ucl.ac.uk/staff/j.groth/</p>
+                <p>5. Sarah Meiklejohn’s homepage. http://www0.cs.ucl.ac.uk/staff/S.Meiklejohn/</p>
+                <p>6. Sarah Meiklejohn's research portrait. http://sec.cs.ucl.ac.uk/index.php?id=7378</p>
+                <p>7. Steven Murdoch's research portrait. http://sec.cs.ucl.ac.uk/index.php?id=7377</p>
+        </div>
+
+        <!--The buttons diaplyed are large when the screen is large-->
+        <a href="computerSecurity.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline-block" role="button">← Computer Security</a>
+        <a href="future.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline-block float-right" role="button">Future Directions →</a>
+
+        <!--The buttons diaplyed are small when the screen is small-->
+        <a href="computerSecurity.html"  class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none">
+            <div class="row mx-auto" style="width:100px">
+                <div class="col col-2 d-flex align-items-center justify-content-center" style="text-align:right">
+                    <p>←</p>
+                </div>
+                <div class="col col-md-auto d-flex align-items-center justify-content-center">
+                    <p>Hisotry</p>
+                </div>
+            </div>
+        </a>
+        <a href="future.html" class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none float-right" role="button">
+            <div class="row mx-auto" style="width:100px">
+                <div class="col col-md-auto d-flex align-items-center justify-content-center">
+                    <p>Malware</p>
+                </div>
+                <div class="col col-3 d-flex align-items-center justify-content-center" style="text-align:left">
+                    <p>→</p>
+                </div>
+            </div>
+        </a>
+
+        <footer class="bg-dark d-flex align-items-center justify-content-center">
+            <p style="color:white">© Team 24 ENGS101P 2017/18, Department of Computer Science, UCL</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        </div></body>
+</html>
