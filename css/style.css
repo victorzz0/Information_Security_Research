@@ -14,18 +14,6 @@ p, h1, h2, h3, h4, h5, h6{
 
 /*navigation bar*/
 
-@supports (position:sticky) {
-    nav{
-        display: sticky;
-    }
-}
-
-@supports not (postion:sticky) {
-    nav{
-        display:relative;
-    }
-}
-
 nav{
     -webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
@@ -116,6 +104,10 @@ iframe{
     margin:0 0 1em 2em;
 }
 
+.contentBody img{
+    margin-bottom: 1em;
+}
+
 /*footer*/
 
 footer{
@@ -158,11 +150,15 @@ footer p{
     }
 
     .contentBody{
-        font-size: 20px;
+        font-size: 16px;
         padding: 10px;
         border: 1px solid #e6e6ee; 
         margin:0px 10px 1em 10px;
         width: 93%;
+    }
+
+    .subHeadingStyle{
+        font-size: 1.5em;
     }
 
     .nav-brand img{
@@ -177,7 +173,8 @@ footer p{
         padding-top:0px!important;
         padding-bottom: 0px!important;
     }
-    img{
+
+    #banner{
         height:120px;
         width:100%;
     }
