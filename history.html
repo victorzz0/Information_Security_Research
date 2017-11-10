@@ -15,7 +15,7 @@ darker bluish colour: 029BB8>
     </head>
     <body>
         <header role="banner">
-            <img class="w-100" src="Pictures/Banner.jpg">
+            <img id="banner" class="w-100" src="Pictures/Banner.jpg">
         </header>
         
         <nav class="sticky-top navbar navbar-expand-sm navbar-dark bg-dark">
@@ -67,7 +67,7 @@ darker bluish colour: 029BB8>
         <div class="mx-auto contentBody">
             <div class="mx-auto" >
                 <h3 class="subHeadingStyle"></h3>
-                <p class="subTopicText">
+                <p >
                     The practice of securing information has a long history and information security methods have evolved in response to changing threats. <br>
                     This link provides further information: 
                     <a href="http://blog.mesltd.ca/a-history-of-information-security-from-past-to-present" target="_blank">History of Information Security</a> <br>
@@ -82,19 +82,17 @@ darker bluish colour: 029BB8>
                     Check out this interview with Dr George Danezis, head of the Information Security group at UCL, about the history of information security research at UCL: <br>
                 </p>
                 <div class="mx-auto" id="youtubeVideo">   
-                        <iframe class="mx-auto" width="800px" height="450px" src="https://www.youtube.com/embed/5bGvedaoT7Y" frameborder="1" allowfullscreen></iframe>
+                        <iframe class="mx-auto" width="800px" height="450px" src="https://www.youtube.com/embed/5bGvedaoT7Y" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <h3 class="subHeadingStyle"></h3>
-                <p class="subTopicText"></p>
+                <p ></p>
                 <h3 class="subHeadingStyle"></h3>
-                <p class="subTopicText"></p>
+                <p ></p>
             </div>
-
-            
 
             <div class="mx-auto">
                 <h3 class="subHeadingStyle"></h3>
-                <p class="subTopicText"></p>
+                <p ></p>
             </div>
         </div>
         <!--The buttons diaplyed are large when the screen is large-->
@@ -102,26 +100,8 @@ darker bluish colour: 029BB8>
         <a href="cryptographyPage.html" class="btn btn-lg btn-outline-secondary d-none d-sm-inline-block float-right" role="button">Cryptography →</a>
 
         <!--The buttons diaplyed are small when the screen is small-->
-        <a href="index.html"  class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none">
-            <div class="row mx-auto" style="width:100px">
-                <div class="col col-2 d-flex align-items-center justify-content-center" style="text-align:right">
-                    <p>←</p>
-                </div>
-                <div class="col col-md-auto d-flex align-items-center justify-content-center">
-                    <p>Home</p>
-                </div>
-            </div>
-        </a>
-        <a href="cryptographyPage.html" class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none float-right" role="button">
-            <div class="row mx-auto" style="width:100px">
-                <div class="col col-md-auto d-flex align-items-center justify-content-center">
-                    <p>Cryptography</p>
-                </div>
-                <div class="col col-3 d-flex align-items-center justify-content-center" style="text-align:left">
-                    <p>→</p>
-                </div>
-            </div>
-        </a>
+        <a id="left-btn" href="index.html"  class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none">← Home</a>
+        <a id="right-btn" href="cryptographyPage.html" class="btn btn-sm btn-outline-secondary d-xs-inline-block d-sm-none float-right" role="button">Cryptography →</a>
 
         <footer class="bg-dark d-flex align-items-center justify-content-center">
             <p style="color:white">© Team 24 ENGS101P 2017/18, Department of Computer Science, UCL</p>
